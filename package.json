@@ -1,0 +1,10 @@
+{
+  "description": "Simple CLI for AoC problems",
+  "scripts": {
+    "serve": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
