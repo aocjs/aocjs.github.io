@@ -35,7 +35,7 @@ module.exports = {
     nav: [
       {
         text: 'Guide',
-        link: '/guide/',
+        link: '/guide/getting-started/',
       },
       {
         text: 'Config',
