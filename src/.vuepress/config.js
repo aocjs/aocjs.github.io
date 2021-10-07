@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'AoCjs',
+  title: 'aocjs',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -30,33 +30,39 @@ module.exports = {
   themeConfig: {
     docsDir: '',
     editLinks: false,
-    lastUpdated: true,
+    lastUpdated: false,
+    smoothScroll: true,
     nav: [
-      // {
-      //   text: 'Guide',
-      //   link: '/guide/',
-      // },
-      // {
-      //   text: 'Config',
-      //   link: '/config/'
-      // },
+      {
+        text: 'Guide',
+        link: '/guide/',
+      },
+      {
+        text: 'Config',
+        link: '/config/'
+      },
       {
         text: 'GitHub',
         link: 'https://github.com/aocjs/cli'
       }
     ],
     sidebar: {
-      // '/guide/': [
-      //   {
-      //     title: 'Guide',
-      //     collapsable: false,
-      //     children: [
-      //       '',
-      //       'using-vue',
-      //     ]
-      //   }
-      // ],
-    }
+      '/guide/': [
+        {
+          title: 'Guide',
+          collapsable: false,
+          children: [
+            '',
+            'getting-started/',
+            'data/',
+            // 'file-structure/',
+            // 'execution/',
+          ]
+        }
+      ],
+      '/config/': 'auto'
+    },
+    sidebarDepth: 2
   },
 
   /**

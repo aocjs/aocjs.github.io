@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /logo.png
-tagline: Simple CLI for AoC problems
-# actionText: Quick Start →
-# actionLink: /guide/
+tagline: Advent of Code command line tool
+actionText: Quick Start →
+actionLink: /guide/getting-started/
 # features:
 # - title: Simplicity
 #   details: Feature 1 Description
